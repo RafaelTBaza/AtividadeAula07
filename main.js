@@ -48,4 +48,15 @@ function fn4(idd){
     }
 }
 
-function fn5(){}
+function fn5(alt, larg){
+
+    console.log((alt * larg) + " cm²")
+}
+
+function fn6(n1){
+
+    for(; n1 >= 0; n1--){
+        console.log(n1)
+    }
+        
+}
