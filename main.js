@@ -83,11 +83,11 @@ function fnAumentoSalario(salario){
 }
 
 //08
-function fnImparPar(n1){
-   if(n1 % 2 === 0){
-    console.log("O numero " + n1 + " é PAR");
+function fnImparPar(num){
+   if(num % 2 === 0){
+    console.log("O numero " + num + " é PAR");
    }else{
-    console.log("O numero " + n1 + " é IMPAR");
+    console.log("O numero " + num + " é IMPAR");
    }
 }
 
@@ -105,3 +105,7 @@ function fnConversorTemperatura(temp,type){
 }
 
 //10
+function fnTipoTriangulo(lado1,lado2,lado3){
+
+    
+}
