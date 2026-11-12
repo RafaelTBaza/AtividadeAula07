@@ -135,3 +135,7 @@ function fnContador(numero){
 }
 
 //12
+function fnDesconto(valor,desc){
+
+    
+}
