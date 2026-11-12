@@ -133,3 +133,5 @@ function fnContador(numero){
     }
     console.log(valorSomado)
 }
+
+//12
