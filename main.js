@@ -151,3 +151,8 @@ function fnEntradaBrinquedo(alt,idd,card){
     }
 }
 
+//14
+function fnConsumo(dist,cons){
+    let media = dist / cons
+    console.log("O consumo medio do seu veiculo é: " + media + "Km por litro")
+}
