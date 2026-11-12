@@ -107,5 +107,13 @@ function fnConversorTemperatura(temp,type){
 //10
 function fnTipoTriangulo(lado1,lado2,lado3){
 
-    
+    if(lado1 == lado2 && lado1 == lado3){
+        console.log("O triangulo é EQUILATERO")
+    }
+    if((lado1 == lado2 || lado1 == lado3 || lado2 == lado3) && (lado1 != lado2 || lado1 != lado3 || lado2 != lado3)){
+        console.log("O triangulo é ISOCELES")
+    }
+    if(lado1 != lado2 && lado1 != lado3 && lado2 != lado3){
+        console.log("O triangulo é ESCALENO")
+    }
 }
