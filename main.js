@@ -61,3 +61,38 @@ function fn6(n1){
         
 }
 
+function fn7(salario){
+
+    if(salario < 1000){
+        salario = salario + (salario * 0.20)
+        console.log("Seu novo salario é: " + salario)
+    }
+    if(salario >= 1000 && salario <= 2000 ){
+        salario = salario + (salario * 0.15)
+        console.log("Seu novo salario é: " + salario)
+    }
+     if(salario > 2000){
+        salario = salario + (salario * 0.10)
+        console.log("Seu novo salario é: " + salario)
+     }
+}
+
+function fn8(n1){
+   if(n1 % 2 === 0){
+    console.log("O numero " + n1 + " é PAR");
+   }else{
+    console.log("O numero " + n1 + " é IMPAR");
+   }
+}
+
+function fn9(temp,type){
+    
+    if(type == "f"){
+        temp = (temp * 1.8) + 32
+        console.log("A converção para Fahrenheit é: " + temp)
+    }
+    if(type == "c"){
+        temp = (temp - 32) * (5 / 9)
+        console.log("A converção para Celsius é: " + temp)
+    }
+}
