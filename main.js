@@ -117,3 +117,19 @@ function fnTipoTriangulo(lado1,lado2,lado3){
         console.log("O triangulo é ESCALENO")
     }
 }
+
+//11
+function fnContador(numero){
+    let valorSomado = 0, contador = 0
+
+    if(numero <= 0){
+        console.log("digite um valor maior que zero")
+        return false
+    }
+
+    while (contador <= numero){
+        valorSomado = contador + valorSomado
+        contador++
+    }
+    console.log(valorSomado)
+}
