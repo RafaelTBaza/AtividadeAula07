@@ -131,11 +131,23 @@ function fnContador(numero){
         valorSomado = contador + valorSomado
         contador++
     }
-    console.log(valorSomado)
+    console.log("O valor final é: " + valorSomado)
 }
 
 //12
 function fnDesconto(valor,desc){
-
-    
+desc = (valor * desc) / 100
+    console.log("Total a pagar: R$" + (valor - desc))
+    console.log("Desconto de: R$" + desc)
 }
+
+//13
+function fnEntradaBrinquedo(alt,idd,card){
+
+    if(alt >= 1.50 && idd >= 12 && !card == true){
+        console.log("Voce pode entrar no brinquedo BOA DIVERSÃO!!!")
+    }else{
+        console.log("Voce não pode entrar no brinquedo")
+    }
+}
+
