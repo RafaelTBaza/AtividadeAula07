@@ -1,6 +1,6 @@
 
-
-function fn1(nome, n1, n2, n3){
+//01
+function fnMedia(nome, n1, n2, n3){
 
 var media = ((n1 + n2 + n3) / 3)
 
@@ -12,8 +12,8 @@ var media = ((n1 + n2 + n3) / 3)
     }
 }
 
-
-function fn2(n1, n2){
+//02
+function fnDiferençaNumero(n1, n2){
 
     var resultado = 0
     if(n1 > n2){
@@ -25,14 +25,16 @@ function fn2(n1, n2){
     }
 }
 
-function fn3(n1){
+//03
+function fnTabuada(n1){
 
 for(let contador = 0; contador <= 10; contador++)
     
 console.log(n1 + " x " + contador + " = " + (n1 * contador))
 }
 
-function fn4(idd){
+//04
+function fnFaixaEtaria(idd){
 
     if(idd < 12){
         console.log("É uma criança")
@@ -48,12 +50,14 @@ function fn4(idd){
     }
 }
 
-function fn5(alt, larg){
+//05
+function fnAreaRetangulo(alt, larg){
 
     console.log((alt * larg) + " cm²")
 }
 
-function fn6(n1){
+//06
+function fnContagemRegressiva(n1){
 
     for(; n1 >= 0; n1--){
         console.log(n1)
@@ -61,7 +65,8 @@ function fn6(n1){
         
 }
 
-function fn7(salario){
+//07
+function fnAumentoSalario(salario){
 
     if(salario < 1000){
         salario = salario + (salario * 0.20)
@@ -77,7 +82,8 @@ function fn7(salario){
      }
 }
 
-function fn8(n1){
+//08
+function fnImparPar(n1){
    if(n1 % 2 === 0){
     console.log("O numero " + n1 + " é PAR");
    }else{
@@ -85,7 +91,8 @@ function fn8(n1){
    }
 }
 
-function fn9(temp,type){
+//09
+function fnConversorTemperatura(temp,type){
     
     if(type == "f"){
         temp = (temp * 1.8) + 32
@@ -96,3 +103,5 @@ function fn9(temp,type){
         console.log("A converção para Celsius é: " + temp)
     }
 }
+
+//10
