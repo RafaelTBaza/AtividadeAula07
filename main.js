@@ -182,7 +182,7 @@ function fnContaRestaurante(valorConta,QntPessoas = 2){
  let totalDivisão = 0
  totalDivisão = valorConta / QntPessoas
 
- console.log("O valor total de " + $(valorConta) + " dividido pela quantidade de " + QntPessoas + " Ficará: " + $(totalDivisão))
+ console.log(`O valor total de ${valorConta} dividido pela quantidade de ${QntPessoas} Ficará ${totalDivisão}`)
 
 
 }
