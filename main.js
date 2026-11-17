@@ -137,8 +137,15 @@ function fnContador(numero){
 //12
 function fnDesconto(valor,desc){
 desc = (valor * desc) / 100
+   
+   if(desc == ""){
+    desc = valor / 10
     console.log("Total a pagar: R$" + (valor - desc))
     console.log("Desconto de: R$" + desc)
+   } else{
+     console.log("Total a pagar: R$" + (valor - desc))
+    console.log("Desconto de: R$" + desc)
+   }
 }
 
 //13
@@ -155,4 +162,49 @@ function fnEntradaBrinquedo(alt,idd,card){
 function fnConsumo(dist,cons){
     let media = dist / cons
     console.log("O consumo medio do seu veiculo é: " + media + "Km por litro")
+}
+
+//15
+function fnNumerosPares(numero){
+
+    i = 1
+    while (i <= numero) {
+     if (i % 2 == 0) {
+       console.log( i );
+    }
+   i++   
+}
+}
+
+//16
+function fnContaRestaurante(valor,Pessoas){
+
+ conta = valor / Pessoas
+if(Pessoas == "" ){console.log("Ficará " + valor / 2 + " Por pessoa")
+    console.log
+}else{console.log("Ficará " + conta + " Por pessoa")
+}
+
+}
+    
+//17
+function fnDesempenhoAluno(nota){
+
+    if(nota >= 9){
+        console.log("Seu desempenho foi EXCELENTE")
+    }if(nota >=7 && nota < 9){
+        console.log("Seu desempenho foi BOM")
+    }if(nota >= 5 && nota < 7){
+        console.log("Seu desempenho foi REGULAR")
+    }if(nota < 5){
+        console.log("Seu desempenho foi INSUFICIENTE")
+    }
+}
+
+//18
+function fnNumeroQuadrado(num){
+    quadrado = num * num
+
+    console.log("O numero escolhido é: " + num)
+    console.log("Seu quadrado é: " + quadrado)
 }
