@@ -92,7 +92,7 @@ function fnImparPar(num){
 }
 
 //09
-function fnConversorTemperatura(temp,type){
+function fnConversorTemperatura(temp,type = "c"){
     
     if(type == "f"){
         temp = (temp * 1.8) + 32
