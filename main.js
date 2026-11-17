@@ -177,13 +177,13 @@ function fnNumerosPares(numero){
 }
 
 //16
-function fnContaRestaurante(valor,Pessoas){
+function fnContaRestaurante(valorConta,QntPessoas = 2){
 
- conta = valor / Pessoas
-if(Pessoas == "" ){console.log("Ficará " + valor / 2 + " Por pessoa")
-    console.log
-}else{console.log("Ficará " + conta + " Por pessoa")
-}
+ let totalDivisão = 0
+ totalDivisão = valorConta / QntPessoas
+
+ console.log("O valor total de " + $(valorConta) + " dividido pela quantidade de " + QntPessoas + " Ficará: " + totalDivisão)
+
 
 }
     
